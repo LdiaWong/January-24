@@ -10,4 +10,10 @@ usethis::use_git_config(
 usethis::create_github_token()
 credentials::set_github_pat()
 
-#token; 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
+#token; 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
+
+usethis::use_git()
+
+#restart R
+usethis::use_github()
+usethis::git_vaccinate()
