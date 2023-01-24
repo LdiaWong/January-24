@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#ABCDE
+# ABCDE
 fghij**klmnop**  
 24980998042201999989427
 
@@ -21,4 +21,10 @@ head(penguins_raw)
 
 ```{r}
 plot(penguins$bill_length_mm ~ penguins$flipper_length_mm)
+```
+
+# **94829880** 
+
+```{r echo = FALSE}
+summary(lm(body_mass_g ~ flipper_length_mm, data = penguins))
 ```
