@@ -12,3 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 #ABCDE
 fghij**klmnop**  
 24980998042201999989427
+
+```{r}
+library(palmerpenguins)
+head(penguins)
+head(penguins_raw)
+```
+
+```{r}
+plot(penguins$bill_length_mm ~ penguins$flipper_length_mm)
+```
